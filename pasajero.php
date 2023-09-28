@@ -41,6 +41,6 @@ public function getTelefono (){
 public function setTelefono($telefono){
     return $this->telefono = $telefono;
 }
-
+//falta to string
 }
 ?>

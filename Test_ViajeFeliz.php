@@ -7,9 +7,18 @@ include_once ('responsableV.php');
 
 $viajes = [];
 $salida = false;
+// $objresponsable = new resppnsablev ("juan","perez"...)
+// creo un objeo de la clase viaje
+// $objviaje = new viaje ("12333","",$objResponsable(delegacion se llama))....
 
+// creo el objeto pasajero
+// $objpasajero1 = new pasajero ("juan", "marconi"...)
+// $objpasajero2 = new pasajero ("ricardo", "darin"...)
+// $colpasa [0]=$objpasajero1;
+// $colpasa [1]=$objpasajero2;
 
-
+// setear el objeto viaje sus pasajeros+
+// $objViaje- setcolPasajeros($colpasa)
 do {
     echo "1)Cargar nuevo viaje \n";
     echo "2)Editar datos viaje \n";

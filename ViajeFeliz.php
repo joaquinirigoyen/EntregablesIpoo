@@ -8,21 +8,26 @@ class ViajeFeliz {
         public $cantidadMaxPasajeros;
         public $pasajeros = [];
         public $responsableViaje;
+        //private $colpasajeros
+        //private $objresponsable
     
     
     
         //Propiedades: caracteristicas de nuestros objetos
         //Metodos
-        public function __construct($Viajee, $destino, $cantidadMaxPasajeros, $pasajeros, $responsableViaje)
+        public function __construct($Viajee, $destino, $cantidadMaxPasajeros, $pasajeros, $responsableViaje  )//private $objresponsable
         {
             $this->Viajee = $Viajee;
             $this->destino = $destino;
             $this->cantidadMaxPasajeros = $cantidadMaxPasajeros;
             $this->pasajeros = $pasajeros;
             $this->responsableViaje = $responsableViaje;
+           // $this->  //private $objresponsable;
+
         }
     
-    
+        // get y set de objresponsable falta
+
         public function get_destino()
         {
             return $this->destino;
@@ -61,7 +66,7 @@ class ViajeFeliz {
         public function get_ResponsableViaje(){
             return $this->responsableViaje;
         }
-    
+    //falta el tostring
         public static function chequeoDeCodigo($codigo, $viajes)
         {
             $retorno = false;

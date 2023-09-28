@@ -50,6 +50,8 @@ class responsableV{
         $this->apellido = $apellido;
     }
 
+    //falta to string
+
 
 }
 
